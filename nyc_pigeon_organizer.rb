@@ -1,3 +1,9 @@
 def nyc_pigeon_organizer(data)
-  # write your code here!
+
+  pigeon_list = {}
+
+  data.each {|key, name| print "#{name} and #{key}"}
+  print "TEST"
+
+  pigeon_list
 end
