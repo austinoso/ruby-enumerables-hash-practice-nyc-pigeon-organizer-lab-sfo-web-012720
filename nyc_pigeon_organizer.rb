@@ -28,7 +28,7 @@ def nyc_pigeon_organizer(data)
     name.each do |name|
       pigeon_list.each do |bird, attributes|
         if name == bird
-            pigeon_list[bird][:gender] << color.to_s
+            pigeon_list[bird][:gender] << gender.to_s
         end
       end
     end
