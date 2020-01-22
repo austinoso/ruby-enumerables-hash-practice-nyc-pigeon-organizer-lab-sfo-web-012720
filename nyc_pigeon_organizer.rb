@@ -5,9 +5,11 @@ def nyc_pigeon_organizer(data)
   data.each do |collection, attributes|
     attributes.each do |attributes, type|
       type.each do |type, name|
-        pp pigeon_list[name][collection][attributes]
+        pigeon_list[name][collection][attributes]
       end
 
     end
   end
+
+  pp pigeon_list
 end
